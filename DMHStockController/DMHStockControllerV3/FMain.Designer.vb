@@ -43,7 +43,7 @@ Partial Class FMain
         Me.TotalStockValuationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalesHistoryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalesAnalysisToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.DgvRecords = New System.Windows.Forms.DataGridView()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ShopsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SuppliersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -72,7 +72,7 @@ Partial Class FMain
         Me.PrintToolStripButton = New System.Windows.Forms.ToolStripButton()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.StatusStrip1.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DgvRecords, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -89,7 +89,7 @@ Partial Class FMain
         Me.TransferToolStripButton.Image = CType(resources.GetObject("TransferToolStripButton.Image"), System.Drawing.Image)
         Me.TransferToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.TransferToolStripButton.Name = "TransferToolStripButton"
-        Me.TransferToolStripButton.Size = New System.Drawing.Size(48, 35)
+        Me.TransferToolStripButton.Size = New System.Drawing.Size(48, 43)
         Me.TransferToolStripButton.Text = "Sales"
         Me.TransferToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.TransferToolStripButton.Visible = False
@@ -99,7 +99,7 @@ Partial Class FMain
         Me.CloseToolStripButton.Image = CType(resources.GetObject("CloseToolStripButton.Image"), System.Drawing.Image)
         Me.CloseToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.CloseToolStripButton.Name = "CloseToolStripButton"
-        Me.CloseToolStripButton.Size = New System.Drawing.Size(48, 35)
+        Me.CloseToolStripButton.Size = New System.Drawing.Size(48, 43)
         Me.CloseToolStripButton.Text = "Close"
         Me.CloseToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -108,12 +108,13 @@ Partial Class FMain
         Me.AboutToolStripButton.Image = CType(resources.GetObject("AboutToolStripButton.Image"), System.Drawing.Image)
         Me.AboutToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.AboutToolStripButton.Name = "AboutToolStripButton"
-        Me.AboutToolStripButton.Size = New System.Drawing.Size(48, 35)
+        Me.AboutToolStripButton.Size = New System.Drawing.Size(48, 43)
         Me.AboutToolStripButton.Text = "About"
         Me.AboutToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
         'StatusStrip1
         '
+        Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2, Me.ToolStripStatusLabel3})
         Me.StatusStrip1.Location = New System.Drawing.Point(51, 647)
         Me.StatusStrip1.Name = "StatusStrip1"
@@ -193,11 +194,11 @@ Partial Class FMain
         Me.SalesAnalysisToolStripMenuItem.Size = New System.Drawing.Size(203, 22)
         Me.SalesAnalysisToolStripMenuItem.Text = "Sales Analysis"
         '
-        'DataGridView1
+        'DgvRecords
         '
-        Me.DataGridView1.AllowUserToAddRows = False
-        Me.DataGridView1.AllowUserToDeleteRows = False
-        Me.DataGridView1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.DgvRecords.AllowUserToAddRows = False
+        Me.DgvRecords.AllowUserToDeleteRows = False
+        Me.DgvRecords.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
@@ -207,8 +208,8 @@ Partial Class FMain
         DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DgvRecords.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        Me.DgvRecords.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -216,16 +217,17 @@ Partial Class FMain
         DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridView1.DefaultCellStyle = DataGridViewCellStyle2
-        Me.DataGridView1.Location = New System.Drawing.Point(51, 27)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.ReadOnly = True
-        Me.DataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders
-        Me.DataGridView1.Size = New System.Drawing.Size(1400, 617)
-        Me.DataGridView1.TabIndex = 28
+        Me.DgvRecords.DefaultCellStyle = DataGridViewCellStyle2
+        Me.DgvRecords.Location = New System.Drawing.Point(54, 30)
+        Me.DgvRecords.Name = "DgvRecords"
+        Me.DgvRecords.ReadOnly = True
+        Me.DgvRecords.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders
+        Me.DgvRecords.Size = New System.Drawing.Size(1400, 617)
+        Me.DgvRecords.TabIndex = 28
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ShopsToolStripMenuItem, Me.SuppliersToolStripMenuItem, Me.PurchaseOrdersToolStripMenuItem, Me.WarehouseAdjustmentsToolStripMenuItem, Me.ShopDeliveriesToolStripMenuItem, Me.SalesToolStripMenuItem, Me.ShopAdjustmentsToolStripMenuItem, Me.ShopTransfersToolStripMenuItem, Me.ReturnsToolStripMenuItem, Me.StockToolStripMenuItem, Me.ReportsToolStripMenuItem, Me.SettingsToolStripMenuItem, Me.menustripTextbox1, Me.FindInput, Me.ToolStripTextBox1, Me.AllStockToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(51, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
@@ -325,7 +327,7 @@ Partial Class FMain
         Me.FindToolStripButton.Image = CType(resources.GetObject("FindToolStripButton.Image"), System.Drawing.Image)
         Me.FindToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.FindToolStripButton.Name = "FindToolStripButton"
-        Me.FindToolStripButton.Size = New System.Drawing.Size(48, 35)
+        Me.FindToolStripButton.Size = New System.Drawing.Size(48, 43)
         Me.FindToolStripButton.Text = "Find"
         Me.FindToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -334,7 +336,7 @@ Partial Class FMain
         Me.ProveToolStripButton.Image = CType(resources.GetObject("ProveToolStripButton.Image"), System.Drawing.Image)
         Me.ProveToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ProveToolStripButton.Name = "ProveToolStripButton"
-        Me.ProveToolStripButton.Size = New System.Drawing.Size(48, 35)
+        Me.ProveToolStripButton.Size = New System.Drawing.Size(48, 43)
         Me.ProveToolStripButton.Text = "Prove"
         Me.ProveToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.ProveToolStripButton.Visible = False
@@ -364,6 +366,7 @@ Partial Class FMain
         '
         Me.ToolStrip1.Dock = System.Windows.Forms.DockStyle.Left
         Me.ToolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
+        Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripButton, Me.RecordToolStripButton, Me.DeleteToolStripButton, Me.RefreshToolStripButton, Me.PrintToolStripButton, Me.ProveToolStripButton, Me.FindToolStripButton, Me.TransferToolStripButton, Me.CloseToolStripButton, Me.AboutToolStripButton})
         Me.ToolStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
@@ -379,7 +382,7 @@ Partial Class FMain
         Me.NewToolStripButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.NewToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.NewToolStripButton.Name = "NewToolStripButton"
-        Me.NewToolStripButton.Size = New System.Drawing.Size(48, 35)
+        Me.NewToolStripButton.Size = New System.Drawing.Size(48, 43)
         Me.NewToolStripButton.Text = "New"
         Me.NewToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -388,7 +391,7 @@ Partial Class FMain
         Me.RecordToolStripButton.Image = CType(resources.GetObject("RecordToolStripButton.Image"), System.Drawing.Image)
         Me.RecordToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.RecordToolStripButton.Name = "RecordToolStripButton"
-        Me.RecordToolStripButton.Size = New System.Drawing.Size(48, 35)
+        Me.RecordToolStripButton.Size = New System.Drawing.Size(48, 43)
         Me.RecordToolStripButton.Text = "Record"
         Me.RecordToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -398,7 +401,7 @@ Partial Class FMain
         Me.DeleteToolStripButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.DeleteToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DeleteToolStripButton.Name = "DeleteToolStripButton"
-        Me.DeleteToolStripButton.Size = New System.Drawing.Size(48, 35)
+        Me.DeleteToolStripButton.Size = New System.Drawing.Size(48, 43)
         Me.DeleteToolStripButton.Text = "Delete"
         Me.DeleteToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -407,7 +410,7 @@ Partial Class FMain
         Me.RefreshToolStripButton.Image = CType(resources.GetObject("RefreshToolStripButton.Image"), System.Drawing.Image)
         Me.RefreshToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.RefreshToolStripButton.Name = "RefreshToolStripButton"
-        Me.RefreshToolStripButton.Size = New System.Drawing.Size(48, 35)
+        Me.RefreshToolStripButton.Size = New System.Drawing.Size(48, 43)
         Me.RefreshToolStripButton.Text = "Refresh"
         Me.RefreshToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -416,7 +419,7 @@ Partial Class FMain
         Me.PrintToolStripButton.Image = CType(resources.GetObject("PrintToolStripButton.Image"), System.Drawing.Image)
         Me.PrintToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.PrintToolStripButton.Name = "PrintToolStripButton"
-        Me.PrintToolStripButton.Size = New System.Drawing.Size(48, 35)
+        Me.PrintToolStripButton.Size = New System.Drawing.Size(48, 43)
         Me.PrintToolStripButton.Text = "Print"
         Me.PrintToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -426,7 +429,7 @@ Partial Class FMain
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1451, 669)
         Me.Controls.Add(Me.StatusStrip1)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.DgvRecords)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.txtMode)
@@ -436,7 +439,7 @@ Partial Class FMain
         Me.Text = "FMain"
         Me.StatusStrip1.ResumeLayout(False)
         Me.StatusStrip1.PerformLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DgvRecords, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ToolStrip1.ResumeLayout(False)
@@ -465,7 +468,7 @@ Partial Class FMain
     Friend WithEvents TotalStockValuationToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SalesHistoryToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SalesAnalysisToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents DgvRecords As DataGridView
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents ShopsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SuppliersToolStripMenuItem As ToolStripMenuItem
