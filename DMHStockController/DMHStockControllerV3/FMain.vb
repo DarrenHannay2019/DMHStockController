@@ -263,10 +263,10 @@ Public Class FMain
     Private Sub FindInput_TextChanged(sender As Object, e As EventArgs) Handles FindInput.TextChanged
         If txtOption.Text = "Shops" Then Findshop() '1
         If txtOption.Text = "Suppliers" Then FindSuppliers() '2
-        If txtOption.Text = "Shop Transfers" Then findST() '7
-        If txtOption.Text = "Purchase Order" Then findPO() '4
+        If txtOption.Text = "Shop Transfers" Then FindShopTransfer() '7
+        If txtOption.Text = "Purchase Order" Then FindPurchaseOrder() '4
         If txtOption.Text = "Stock" Then FindStock() ' 3
-        If txtOption.Text = "Shop deliveries" Then findSD()
+        If txtOption.Text = "Shop deliveries" Then FindShopDelivery()
         If txtOption.Text = "Sales" Then FindSales()
     End Sub
 
