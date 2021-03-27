@@ -54,6 +54,12 @@
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -105,6 +111,18 @@
     <Compile Include="FAdjustments.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FBackup.Designer.vb">
+      <DependentUpon>FBackup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FBackup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FBorehamwood.Designer.vb">
+      <DependentUpon>FBorehamwood.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FBorehamwood.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FChgPwd.Designer.vb">
       <DependentUpon>FChgPwd.vb</DependentUpon>
     </Compile>
@@ -151,6 +169,18 @@
       <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
     <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPrint.Designer.vb">
+      <DependentUpon>FPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPrintPreviewDialogSelectPrinter.Designer.vb">
+      <DependentUpon>FPrintPreviewDialogSelectPrinter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FPrintPreviewDialogSelectPrinter.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FProfile.Designer.vb">
@@ -309,6 +339,12 @@
     <Compile Include="FSuppliersEntry.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FUpdatedSales.Designer.vb">
+      <DependentUpon>FUpdatedSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FUpdatedSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FWarehouse.Designer.vb">
       <DependentUpon>FWarehouse.vb</DependentUpon>
     </Compile>
@@ -455,6 +491,12 @@
     <EmbeddedResource Include="FAdjustments.resx">
       <DependentUpon>FAdjustments.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FBackup.resx">
+      <DependentUpon>FBackup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FBorehamwood.resx">
+      <DependentUpon>FBorehamwood.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FChgPwd.resx">
       <DependentUpon>FChgPwd.vb</DependentUpon>
     </EmbeddedResource>
@@ -478,6 +520,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPrint.resx">
+      <DependentUpon>FPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPrintPreviewDialogSelectPrinter.resx">
+      <DependentUpon>FPrintPreviewDialogSelectPrinter.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FProfile.resx">
       <DependentUpon>FProfile.vb</DependentUpon>
