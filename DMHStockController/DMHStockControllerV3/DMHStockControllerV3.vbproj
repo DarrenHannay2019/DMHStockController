@@ -481,6 +481,12 @@
     <EmbeddedResource Include="FProvStock.resx">
       <DependentUpon>FProvStock.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FPurchaseOrders.resx">
+      <DependentUpon>FPurchaseOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRefunds.resx">
+      <DependentUpon>FRefunds.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FSplashScreen.resx">
       <DependentUpon>FSplashScreen.vb</DependentUpon>
     </EmbeddedResource>
