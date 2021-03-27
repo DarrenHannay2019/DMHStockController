@@ -71,6 +71,7 @@ Partial Class FMain
         Me.RefreshToolStripButton = New System.Windows.Forms.ToolStripButton()
         Me.PrintToolStripButton = New System.Windows.Forms.ToolStripButton()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.BorehamwoodStockListToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1.SuspendLayout()
         CType(Me.DgvRecords, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
@@ -142,12 +143,12 @@ Partial Class FMain
         'AllStockMovementsToolStripMenuItem
         '
         Me.AllStockMovementsToolStripMenuItem.Name = "AllStockMovementsToolStripMenuItem"
-        Me.AllStockMovementsToolStripMenuItem.Size = New System.Drawing.Size(203, 22)
+        Me.AllStockMovementsToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
         Me.AllStockMovementsToolStripMenuItem.Text = "All Stock Movements"
         '
         'ReportsToolStripMenuItem
         '
-        Me.ReportsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AllStockMovementsToolStripMenuItem, Me.DeliveriesByStockCodeToolStripMenuItem, Me.StockListByShopToolStripMenuItem, Me.StockListByStockCodeToolStripMenuItem, Me.WarehouseStockListToolStripMenuItem, Me.TotalStockValuationToolStripMenuItem, Me.SalesHistoryToolStripMenuItem, Me.SalesAnalysisToolStripMenuItem})
+        Me.ReportsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AllStockMovementsToolStripMenuItem, Me.BorehamwoodStockListToolStripMenuItem, Me.DeliveriesByStockCodeToolStripMenuItem, Me.StockListByShopToolStripMenuItem, Me.StockListByStockCodeToolStripMenuItem, Me.WarehouseStockListToolStripMenuItem, Me.TotalStockValuationToolStripMenuItem, Me.SalesHistoryToolStripMenuItem, Me.SalesAnalysisToolStripMenuItem})
         Me.ReportsToolStripMenuItem.Name = "ReportsToolStripMenuItem"
         Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(59, 23)
         Me.ReportsToolStripMenuItem.Text = "Reports"
@@ -155,43 +156,43 @@ Partial Class FMain
         'DeliveriesByStockCodeToolStripMenuItem
         '
         Me.DeliveriesByStockCodeToolStripMenuItem.Name = "DeliveriesByStockCodeToolStripMenuItem"
-        Me.DeliveriesByStockCodeToolStripMenuItem.Size = New System.Drawing.Size(203, 22)
+        Me.DeliveriesByStockCodeToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
         Me.DeliveriesByStockCodeToolStripMenuItem.Text = "Deliveries by Stock Code"
         '
         'StockListByShopToolStripMenuItem
         '
         Me.StockListByShopToolStripMenuItem.Name = "StockListByShopToolStripMenuItem"
-        Me.StockListByShopToolStripMenuItem.Size = New System.Drawing.Size(203, 22)
+        Me.StockListByShopToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
         Me.StockListByShopToolStripMenuItem.Text = "Stock List by Shop"
         '
         'StockListByStockCodeToolStripMenuItem
         '
         Me.StockListByStockCodeToolStripMenuItem.Name = "StockListByStockCodeToolStripMenuItem"
-        Me.StockListByStockCodeToolStripMenuItem.Size = New System.Drawing.Size(203, 22)
+        Me.StockListByStockCodeToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
         Me.StockListByStockCodeToolStripMenuItem.Text = "Stock List By Stock Code"
         '
         'WarehouseStockListToolStripMenuItem
         '
         Me.WarehouseStockListToolStripMenuItem.Name = "WarehouseStockListToolStripMenuItem"
-        Me.WarehouseStockListToolStripMenuItem.Size = New System.Drawing.Size(203, 22)
+        Me.WarehouseStockListToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
         Me.WarehouseStockListToolStripMenuItem.Text = "Warehouse Stock List"
         '
         'TotalStockValuationToolStripMenuItem
         '
         Me.TotalStockValuationToolStripMenuItem.Name = "TotalStockValuationToolStripMenuItem"
-        Me.TotalStockValuationToolStripMenuItem.Size = New System.Drawing.Size(203, 22)
+        Me.TotalStockValuationToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
         Me.TotalStockValuationToolStripMenuItem.Text = "Total Stock Valuation"
         '
         'SalesHistoryToolStripMenuItem
         '
         Me.SalesHistoryToolStripMenuItem.Name = "SalesHistoryToolStripMenuItem"
-        Me.SalesHistoryToolStripMenuItem.Size = New System.Drawing.Size(203, 22)
+        Me.SalesHistoryToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
         Me.SalesHistoryToolStripMenuItem.Text = "Sales History"
         '
         'SalesAnalysisToolStripMenuItem
         '
         Me.SalesAnalysisToolStripMenuItem.Name = "SalesAnalysisToolStripMenuItem"
-        Me.SalesAnalysisToolStripMenuItem.Size = New System.Drawing.Size(203, 22)
+        Me.SalesAnalysisToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
         Me.SalesAnalysisToolStripMenuItem.Text = "Sales Analysis"
         '
         'DgvRecords
@@ -423,6 +424,12 @@ Partial Class FMain
         Me.PrintToolStripButton.Text = "Print"
         Me.PrintToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
+        'BorehamwoodStockListToolStripMenuItem
+        '
+        Me.BorehamwoodStockListToolStripMenuItem.Name = "BorehamwoodStockListToolStripMenuItem"
+        Me.BorehamwoodStockListToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
+        Me.BorehamwoodStockListToolStripMenuItem.Text = "Borehamwood Stock List"
+        '
         'FMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -495,4 +502,5 @@ Partial Class FMain
     Friend WithEvents DeleteToolStripButton As ToolStripButton
     Friend WithEvents RefreshToolStripButton As ToolStripButton
     Friend WithEvents PrintToolStripButton As ToolStripButton
+    Friend WithEvents BorehamwoodStockListToolStripMenuItem As ToolStripMenuItem
 End Class
