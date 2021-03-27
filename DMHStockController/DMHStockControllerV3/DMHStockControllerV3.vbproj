@@ -478,6 +478,9 @@
     <EmbeddedResource Include="FProfile.resx">
       <DependentUpon>FProfile.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FProvStock.resx">
+      <DependentUpon>FProvStock.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FSplashScreen.resx">
       <DependentUpon>FSplashScreen.vb</DependentUpon>
     </EmbeddedResource>
