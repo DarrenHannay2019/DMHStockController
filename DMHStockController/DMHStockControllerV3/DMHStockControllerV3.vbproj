@@ -11,9 +11,10 @@
     <AssemblyName>DMHStockControllerV3</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -73,6 +74,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FAdjustments.Designer.vb">
+      <DependentUpon>FAdjustments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FAdjustments.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FMain.Designer.vb">
       <DependentUpon>FMain.vb</DependentUpon>
     </Compile>
