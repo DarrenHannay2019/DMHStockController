@@ -524,8 +524,44 @@
     <EmbeddedResource Include="FSales.resx">
       <DependentUpon>FSales.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FSeasons.resx">
+      <DependentUpon>FSeasons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSeasonTransfer.resx">
+      <DependentUpon>FSeasonTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSettings.resx">
+      <DependentUpon>FSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShopAdjustments.resx">
+      <DependentUpon>FShopAdjustments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShopDeliveries.resx">
+      <DependentUpon>FShopDeliveries.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShopsEntry.resx">
+      <DependentUpon>FShopsEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShopTransfers.resx">
+      <DependentUpon>FShopTransfers.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FSplashScreen.resx">
       <DependentUpon>FSplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FStock.resx">
+      <DependentUpon>FStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSuppliersEntry.resx">
+      <DependentUpon>FSuppliersEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FWarehouse.resx">
+      <DependentUpon>FWarehouse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FWarehouseAdjustments.resx">
+      <DependentUpon>FWarehouseAdjustments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FWarehouseTransfer.resx">
+      <DependentUpon>FWarehouseTransfer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
