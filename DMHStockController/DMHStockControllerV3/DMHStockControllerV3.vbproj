@@ -92,10 +92,22 @@
     <Compile Include="FChgPwd.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FLoginForm.Designer.vb">
+      <DependentUpon>FLoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FLoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FMain.Designer.vb">
       <DependentUpon>FMain.vb</DependentUpon>
     </Compile>
     <Compile Include="FMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FSplashScreen.Designer.vb">
@@ -131,8 +143,14 @@
     <EmbeddedResource Include="FChgPwd.resx">
       <DependentUpon>FChgPwd.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FLoginForm.resx">
+      <DependentUpon>FLoginForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FMain.resx">
       <DependentUpon>FMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FSplashScreen.resx">
       <DependentUpon>FSplashScreen.vb</DependentUpon>
