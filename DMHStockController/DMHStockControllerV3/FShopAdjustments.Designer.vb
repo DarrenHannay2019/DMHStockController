@@ -22,9 +22,9 @@ Partial Class FShopAdjustments
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle37 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle38 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle39 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.txtfromshoptype = New System.Windows.Forms.TextBox()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
         Me.UnitPrices = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -75,7 +75,7 @@ Partial Class FShopAdjustments
         'DataGridView2
         '
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView2.Location = New System.Drawing.Point(43, 309)
+        Me.DataGridView2.Location = New System.Drawing.Point(125, 417)
         Me.DataGridView2.Name = "DataGridView2"
         Me.DataGridView2.Size = New System.Drawing.Size(240, 150)
         Me.DataGridView2.TabIndex = 111
@@ -97,10 +97,10 @@ Partial Class FShopAdjustments
         '
         'TransToQty
         '
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle1.Format = "N0"
-        DataGridViewCellStyle1.NullValue = Nothing
-        Me.TransToQty.DefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle37.Format = "N0"
+        DataGridViewCellStyle37.NullValue = Nothing
+        Me.TransToQty.DefaultCellStyle = DataGridViewCellStyle37
         Me.TransToQty.HeaderText = "Adjustment Qty"
         Me.TransToQty.Name = "TransToQty"
         Me.TransToQty.ReadOnly = True
@@ -108,9 +108,9 @@ Partial Class FShopAdjustments
         '
         'TransFromQty
         '
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle2.NullValue = Nothing
-        Me.TransFromQty.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle38.NullValue = Nothing
+        Me.TransFromQty.DefaultCellStyle = DataGridViewCellStyle38
         Me.TransFromQty.HeaderText = "Adjustment Type"
         Me.TransFromQty.Name = "TransFromQty"
         Me.TransFromQty.ReadOnly = True
@@ -118,10 +118,10 @@ Partial Class FShopAdjustments
         '
         'CurrentQty
         '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle3.Format = "N0"
-        DataGridViewCellStyle3.NullValue = Nothing
-        Me.CurrentQty.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle39.Format = "N0"
+        DataGridViewCellStyle39.NullValue = Nothing
+        Me.CurrentQty.DefaultCellStyle = DataGridViewCellStyle39
         Me.CurrentQty.HeaderText = "Current Qty"
         Me.CurrentQty.Name = "CurrentQty"
         Me.CurrentQty.ReadOnly = True
@@ -144,7 +144,7 @@ Partial Class FShopAdjustments
         'DataGridView3
         '
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView3.Location = New System.Drawing.Point(76, 334)
+        Me.DataGridView3.Location = New System.Drawing.Point(58, 430)
         Me.DataGridView3.Name = "DataGridView3"
         Me.DataGridView3.Size = New System.Drawing.Size(240, 150)
         Me.DataGridView3.TabIndex = 113

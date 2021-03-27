@@ -61,14 +61,14 @@ Partial Class FStock
         'CreatedByTextBox
         '
         Me.CreatedByTextBox.Enabled = False
-        Me.CreatedByTextBox.Location = New System.Drawing.Point(343, 294)
+        Me.CreatedByTextBox.Location = New System.Drawing.Point(152, 228)
         Me.CreatedByTextBox.Name = "CreatedByTextBox"
         Me.CreatedByTextBox.Size = New System.Drawing.Size(200, 20)
         Me.CreatedByTextBox.TabIndex = 107
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(343, 320)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(152, 254)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker1.TabIndex = 109
@@ -76,7 +76,7 @@ Partial Class FStock
         'CreatedDateLabel
         '
         CreatedDateLabel.AutoSize = True
-        CreatedDateLabel.Location = New System.Drawing.Point(264, 326)
+        CreatedDateLabel.Location = New System.Drawing.Point(73, 260)
         CreatedDateLabel.Name = "CreatedDateLabel"
         CreatedDateLabel.Size = New System.Drawing.Size(73, 13)
         CreatedDateLabel.TabIndex = 108
@@ -85,7 +85,7 @@ Partial Class FStock
         'StockCodeLabel
         '
         StockCodeLabel.AutoSize = True
-        StockCodeLabel.Location = New System.Drawing.Point(272, 84)
+        StockCodeLabel.Location = New System.Drawing.Point(81, 18)
         StockCodeLabel.Name = "StockCodeLabel"
         StockCodeLabel.Size = New System.Drawing.Size(66, 13)
         StockCodeLabel.TabIndex = 98
@@ -93,7 +93,7 @@ Partial Class FStock
         '
         'StockCodeTextBox
         '
-        Me.StockCodeTextBox.Location = New System.Drawing.Point(344, 81)
+        Me.StockCodeTextBox.Location = New System.Drawing.Point(153, 15)
         Me.StockCodeTextBox.Name = "StockCodeTextBox"
         Me.StockCodeTextBox.Size = New System.Drawing.Size(200, 20)
         Me.StockCodeTextBox.TabIndex = 86
@@ -101,7 +101,7 @@ Partial Class FStock
         'SupplierRefLabel
         '
         SupplierRefLabel.AutoSize = True
-        SupplierRefLabel.Location = New System.Drawing.Point(270, 110)
+        SupplierRefLabel.Location = New System.Drawing.Point(79, 44)
         SupplierRefLabel.Name = "SupplierRefLabel"
         SupplierRefLabel.Size = New System.Drawing.Size(68, 13)
         SupplierRefLabel.TabIndex = 99
@@ -109,7 +109,7 @@ Partial Class FStock
         '
         'SupplierRefTextBox
         '
-        Me.SupplierRefTextBox.Location = New System.Drawing.Point(344, 107)
+        Me.SupplierRefTextBox.Location = New System.Drawing.Point(153, 41)
         Me.SupplierRefTextBox.Name = "SupplierRefTextBox"
         Me.SupplierRefTextBox.Size = New System.Drawing.Size(200, 20)
         Me.SupplierRefTextBox.TabIndex = 87
@@ -117,7 +117,7 @@ Partial Class FStock
         'DeadCodeLabel
         '
         DeadCodeLabel.AutoSize = True
-        DeadCodeLabel.Location = New System.Drawing.Point(274, 138)
+        DeadCodeLabel.Location = New System.Drawing.Point(83, 72)
         DeadCodeLabel.Name = "DeadCodeLabel"
         DeadCodeLabel.Size = New System.Drawing.Size(64, 13)
         DeadCodeLabel.TabIndex = 100
@@ -125,7 +125,7 @@ Partial Class FStock
         '
         'DeadCodeCheckBox
         '
-        Me.DeadCodeCheckBox.Location = New System.Drawing.Point(344, 133)
+        Me.DeadCodeCheckBox.Location = New System.Drawing.Point(153, 67)
         Me.DeadCodeCheckBox.Name = "DeadCodeCheckBox"
         Me.DeadCodeCheckBox.Size = New System.Drawing.Size(200, 24)
         Me.DeadCodeCheckBox.TabIndex = 93
@@ -134,7 +134,7 @@ Partial Class FStock
         'AmountTakenLabel
         '
         AmountTakenLabel.AutoSize = True
-        AmountTakenLabel.Location = New System.Drawing.Point(257, 163)
+        AmountTakenLabel.Location = New System.Drawing.Point(66, 97)
         AmountTakenLabel.Name = "AmountTakenLabel"
         AmountTakenLabel.Size = New System.Drawing.Size(80, 13)
         AmountTakenLabel.TabIndex = 101
@@ -142,7 +142,7 @@ Partial Class FStock
         '
         'AmountTakenTextBox
         '
-        Me.AmountTakenTextBox.Location = New System.Drawing.Point(343, 160)
+        Me.AmountTakenTextBox.Location = New System.Drawing.Point(152, 94)
         Me.AmountTakenTextBox.Name = "AmountTakenTextBox"
         Me.AmountTakenTextBox.Size = New System.Drawing.Size(200, 20)
         Me.AmountTakenTextBox.TabIndex = 88
@@ -150,7 +150,7 @@ Partial Class FStock
         'DeliveredQtyHangersLabel
         '
         DeliveredQtyHangersLabel.AutoSize = True
-        DeliveredQtyHangersLabel.Location = New System.Drawing.Point(220, 272)
+        DeliveredQtyHangersLabel.Location = New System.Drawing.Point(29, 206)
         DeliveredQtyHangersLabel.Name = "DeliveredQtyHangersLabel"
         DeliveredQtyHangersLabel.Size = New System.Drawing.Size(117, 13)
         DeliveredQtyHangersLabel.TabIndex = 102
@@ -158,7 +158,7 @@ Partial Class FStock
         '
         'DeliveredQtyHangersTextBox
         '
-        Me.DeliveredQtyHangersTextBox.Location = New System.Drawing.Point(343, 269)
+        Me.DeliveredQtyHangersTextBox.Location = New System.Drawing.Point(152, 203)
         Me.DeliveredQtyHangersTextBox.Name = "DeliveredQtyHangersTextBox"
         Me.DeliveredQtyHangersTextBox.Size = New System.Drawing.Size(200, 20)
         Me.DeliveredQtyHangersTextBox.TabIndex = 91
@@ -166,7 +166,7 @@ Partial Class FStock
         'CostValueLabel
         '
         CostValueLabel.AutoSize = True
-        CostValueLabel.Location = New System.Drawing.Point(276, 190)
+        CostValueLabel.Location = New System.Drawing.Point(85, 124)
         CostValueLabel.Name = "CostValueLabel"
         CostValueLabel.Size = New System.Drawing.Size(61, 13)
         CostValueLabel.TabIndex = 103
@@ -174,7 +174,7 @@ Partial Class FStock
         '
         'CostValueTextBox
         '
-        Me.CostValueTextBox.Location = New System.Drawing.Point(343, 187)
+        Me.CostValueTextBox.Location = New System.Drawing.Point(152, 121)
         Me.CostValueTextBox.Name = "CostValueTextBox"
         Me.CostValueTextBox.Size = New System.Drawing.Size(200, 20)
         Me.CostValueTextBox.TabIndex = 89
@@ -182,7 +182,7 @@ Partial Class FStock
         'PCMarkUpLabel
         '
         PCMarkUpLabel.AutoSize = True
-        PCMarkUpLabel.Location = New System.Drawing.Point(272, 216)
+        PCMarkUpLabel.Location = New System.Drawing.Point(81, 150)
         PCMarkUpLabel.Name = "PCMarkUpLabel"
         PCMarkUpLabel.Size = New System.Drawing.Size(65, 13)
         PCMarkUpLabel.TabIndex = 104
@@ -190,7 +190,7 @@ Partial Class FStock
         '
         'PCMarkUpTextBox
         '
-        Me.PCMarkUpTextBox.Location = New System.Drawing.Point(343, 213)
+        Me.PCMarkUpTextBox.Location = New System.Drawing.Point(152, 147)
         Me.PCMarkUpTextBox.Name = "PCMarkUpTextBox"
         Me.PCMarkUpTextBox.Size = New System.Drawing.Size(200, 20)
         Me.PCMarkUpTextBox.TabIndex = 90
@@ -198,7 +198,7 @@ Partial Class FStock
         'ZeroQtyLabel
         '
         ZeroQtyLabel.AutoSize = True
-        ZeroQtyLabel.Location = New System.Drawing.Point(286, 244)
+        ZeroQtyLabel.Location = New System.Drawing.Point(95, 178)
         ZeroQtyLabel.Name = "ZeroQtyLabel"
         ZeroQtyLabel.Size = New System.Drawing.Size(51, 13)
         ZeroQtyLabel.TabIndex = 105
@@ -206,7 +206,7 @@ Partial Class FStock
         '
         'ZeroQtyCheckBox
         '
-        Me.ZeroQtyCheckBox.Location = New System.Drawing.Point(343, 239)
+        Me.ZeroQtyCheckBox.Location = New System.Drawing.Point(152, 173)
         Me.ZeroQtyCheckBox.Name = "ZeroQtyCheckBox"
         Me.ZeroQtyCheckBox.Size = New System.Drawing.Size(200, 24)
         Me.ZeroQtyCheckBox.TabIndex = 92
@@ -215,7 +215,7 @@ Partial Class FStock
         'CreatedByLabel
         '
         CreatedByLabel.AutoSize = True
-        CreatedByLabel.Location = New System.Drawing.Point(275, 297)
+        CreatedByLabel.Location = New System.Drawing.Point(84, 231)
         CreatedByLabel.Name = "CreatedByLabel"
         CreatedByLabel.Size = New System.Drawing.Size(62, 13)
         CreatedByLabel.TabIndex = 106
@@ -223,7 +223,7 @@ Partial Class FStock
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(399, 347)
+        Me.Button1.Location = New System.Drawing.Point(208, 281)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 95
@@ -233,7 +233,7 @@ Partial Class FStock
         '
         'cmdCancel
         '
-        Me.cmdCancel.Location = New System.Drawing.Point(480, 347)
+        Me.cmdCancel.Location = New System.Drawing.Point(289, 281)
         Me.cmdCancel.Name = "cmdCancel"
         Me.cmdCancel.Size = New System.Drawing.Size(59, 23)
         Me.cmdCancel.TabIndex = 96
@@ -242,7 +242,7 @@ Partial Class FStock
         '
         'cmdAdd
         '
-        Me.cmdAdd.Location = New System.Drawing.Point(324, 347)
+        Me.cmdAdd.Location = New System.Drawing.Point(133, 281)
         Me.cmdAdd.Name = "cmdAdd"
         Me.cmdAdd.Size = New System.Drawing.Size(69, 23)
         Me.cmdAdd.TabIndex = 94
@@ -251,7 +251,7 @@ Partial Class FStock
         '
         'cmdFindSupplier
         '
-        Me.cmdFindSupplier.Location = New System.Drawing.Point(550, 104)
+        Me.cmdFindSupplier.Location = New System.Drawing.Point(359, 38)
         Me.cmdFindSupplier.Name = "cmdFindSupplier"
         Me.cmdFindSupplier.Size = New System.Drawing.Size(31, 23)
         Me.cmdFindSupplier.TabIndex = 97
