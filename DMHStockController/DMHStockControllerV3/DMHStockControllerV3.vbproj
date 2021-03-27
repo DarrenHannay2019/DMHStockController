@@ -98,6 +98,18 @@
     <Compile Include="FCriteria.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FDeliveriesIn.Designer.vb">
+      <DependentUpon>FDeliveriesIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FDeliveriesIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FEmployee.Designer.vb">
+      <DependentUpon>FEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FLoginForm.Designer.vb">
       <DependentUpon>FLoginForm.vb</DependentUpon>
     </Compile>
@@ -110,16 +122,190 @@
     <Compile Include="FMain.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FNewSales.Designer.vb">
+      <DependentUpon>FNewSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FNewSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FProfile.Designer.vb">
+      <DependentUpon>FProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FProvStock.Designer.vb">
+      <DependentUpon>FProvStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FProvStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPurchaseOrders.Designer.vb">
+      <DependentUpon>FPurchaseOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FPurchaseOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPurgeRecords.Designer.vb">
+      <DependentUpon>FPurgeRecords.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FPurgeRecords.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRefunds.Designer.vb">
+      <DependentUpon>FRefunds.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRefunds.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FReportAllStockMovements.Designer.vb">
+      <DependentUpon>FReportAllStockMovements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FReportAllStockMovements.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FReports.Designer.vb">
+      <DependentUpon>FReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FReportSalesAnalysis.Designer.vb">
+      <DependentUpon>FReportSalesAnalysis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FReportSalesAnalysis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FReportSalesHistory.Designer.vb">
+      <DependentUpon>FReportSalesHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FReportSalesHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FReportShopDeliveries.Designer.vb">
+      <DependentUpon>FReportShopDeliveries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FReportShopDeliveries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FReportStockList1.Designer.vb">
+      <DependentUpon>FReportStockList1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FReportStockList1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FReportStockList2.Designer.vb">
+      <DependentUpon>FReportStockList2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FReportStockList2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FReportTotalValue.Designer.vb">
+      <DependentUpon>FReportTotalValue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FReportTotalValue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FReportWarehouseStock.Designer.vb">
+      <DependentUpon>FReportWarehouseStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FReportWarehouseStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FReturns.Designer.vb">
+      <DependentUpon>FReturns.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FReturns.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSales.Designer.vb">
+      <DependentUpon>FSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSeasons.Designer.vb">
+      <DependentUpon>FSeasons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSeasons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSeasonTransfer.Designer.vb">
+      <DependentUpon>FSeasonTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSeasonTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSettings.Designer.vb">
+      <DependentUpon>FSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopAdjustments.Designer.vb">
+      <DependentUpon>FShopAdjustments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShopAdjustments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopDeliveries.Designer.vb">
+      <DependentUpon>FShopDeliveries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShopDeliveries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopsEntry.Designer.vb">
+      <DependentUpon>FShopsEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShopsEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopTransfers.Designer.vb">
+      <DependentUpon>FShopTransfers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShopTransfers.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FSplashScreen.Designer.vb">
       <DependentUpon>FSplashScreen.vb</DependentUpon>
     </Compile>
     <Compile Include="FSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FStock.Designer.vb">
+      <DependentUpon>FStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSuppliersEntry.Designer.vb">
+      <DependentUpon>FSuppliersEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSuppliersEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWarehouse.Designer.vb">
+      <DependentUpon>FWarehouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FWarehouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWarehouseAdjustments.Designer.vb">
+      <DependentUpon>FWarehouseAdjustments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FWarehouseAdjustments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWarehouseTransfer.Designer.vb">
+      <DependentUpon>FWarehouseTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FWarehouseTransfer.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -152,6 +338,12 @@
     <EmbeddedResource Include="FCriteria.resx">
       <DependentUpon>FCriteria.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FDeliveriesIn.resx">
+      <DependentUpon>FDeliveriesIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FEmployee.resx">
+      <DependentUpon>FEmployee.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FLoginForm.resx">
       <DependentUpon>FLoginForm.vb</DependentUpon>
     </EmbeddedResource>
@@ -160,6 +352,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FProfile.resx">
+      <DependentUpon>FProfile.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FSplashScreen.resx">
       <DependentUpon>FSplashScreen.vb</DependentUpon>

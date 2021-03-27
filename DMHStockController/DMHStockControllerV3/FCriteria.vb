@@ -19,30 +19,30 @@
     End Sub
 
     Private Sub SalesAnalysisReport()
-        ReportSalesAnalysis.Show()
+        FReportSalesAnalysis.Show()
     End Sub
 
     Private Sub SalesHistoryReport()
-        reportSalesHistory.Show()
+        FReportSalesHistory.Show()
     End Sub
 
     Private Sub StockValueReport()
-        '  ReportSalesAnalysis.Show()
+        FReportSalesAnalysis.Show()
     End Sub
 
     Private Sub WarehouseStockListReport()
-        ReportWarehouseStock.Show()
+        FReportWarehouseStock.Show()
     End Sub
 
     Private Sub StockListByShopReport()
-        ReportStockList1.Show()
+        FReportStockList1.Show()
     End Sub
 
     Private Sub StockListByCodeReport()
-        ReportStockList2.Show()
+        FReportStockList2.Show()
     End Sub
 
     Private Sub ShopdeliveriesReports()
-        ReportShopDeliveries.Show()
+        FReportShopDeliveries.Show()
     End Sub
 End Class
