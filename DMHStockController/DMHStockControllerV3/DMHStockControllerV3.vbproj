@@ -92,6 +92,12 @@
     <Compile Include="FChgPwd.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FCriteria.Designer.vb">
+      <DependentUpon>FCriteria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FCriteria.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FLoginForm.Designer.vb">
       <DependentUpon>FLoginForm.vb</DependentUpon>
     </Compile>
@@ -142,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FChgPwd.resx">
       <DependentUpon>FChgPwd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCriteria.resx">
+      <DependentUpon>FCriteria.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FLoginForm.resx">
       <DependentUpon>FLoginForm.vb</DependentUpon>
