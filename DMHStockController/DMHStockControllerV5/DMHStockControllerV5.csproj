@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -216,8 +217,14 @@
     <EmbeddedResource Include="FLogin.resx">
       <DependentUpon>FLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FMain.resx">
+      <DependentUpon>FMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FPurchaseOrder.resx">
       <DependentUpon>FPurchaseOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSeason.resx">
+      <DependentUpon>FSeason.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FStock.resx">
       <DependentUpon>FStock.cs</DependentUpon>
