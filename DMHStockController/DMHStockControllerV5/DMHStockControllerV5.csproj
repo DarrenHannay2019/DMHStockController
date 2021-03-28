@@ -204,6 +204,9 @@
     <EmbeddedResource Include="FPurchaseOrder.resx">
       <DependentUpon>FPurchaseOrder.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FStock.resx">
+      <DependentUpon>FStock.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FSupplier.resx">
       <DependentUpon>FSupplier.cs</DependentUpon>
     </EmbeddedResource>
