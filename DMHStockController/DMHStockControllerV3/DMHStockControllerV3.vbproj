@@ -602,6 +602,9 @@
     <EmbeddedResource Include="FSuppliersEntry.resx">
       <DependentUpon>FSuppliersEntry.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FUpdatedSales.resx">
+      <DependentUpon>FUpdatedSales.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FWarehouse.resx">
       <DependentUpon>FWarehouse.vb</DependentUpon>
     </EmbeddedResource>

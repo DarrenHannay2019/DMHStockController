@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClsEmployee.cs" />
+    <Compile Include="ClsLogs.cs" />
+    <Compile Include="ClsPurchaseOrder.cs" />
+    <Compile Include="ClsPurchaseOrderHead.cs" />
+    <Compile Include="ClsPurchaseOrderLine.cs" />
+    <Compile Include="ClsUtils.cs" />
     <Compile Include="FLogin.cs">
       <SubType>Form</SubType>
     </Compile>
