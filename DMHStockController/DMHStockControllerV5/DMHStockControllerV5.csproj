@@ -201,6 +201,9 @@
     <EmbeddedResource Include="FAboutBox.resx">
       <DependentUpon>FAboutBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FPurchaseOrder.resx">
+      <DependentUpon>FPurchaseOrder.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
