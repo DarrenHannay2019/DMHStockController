@@ -51,15 +51,156 @@
     <Compile Include="ClsPurchaseOrder.cs" />
     <Compile Include="ClsPurchaseOrderHead.cs" />
     <Compile Include="ClsPurchaseOrderLine.cs" />
+    <Compile Include="ClsSeason.cs" />
+    <Compile Include="ClsSettings.cs" />
+    <Compile Include="ClsShop.cs" />
+    <Compile Include="ClsShopAdjustment.cs" />
+    <Compile Include="ClsShopAdjustmentHead.cs" />
+    <Compile Include="ClsShopAdjustmentLine.cs" />
+    <Compile Include="ClsShopDelivery.cs" />
+    <Compile Include="ClsShopDeliveryHead.cs" />
+    <Compile Include="ClsShopDeliveryLine.cs" />
+    <Compile Include="ClsShopReturn.cs" />
+    <Compile Include="ClsShopReturnHead.cs" />
+    <Compile Include="ClsShopReturnLine.cs" />
+    <Compile Include="ClsShopSale.cs" />
+    <Compile Include="ClsShopSaleHead.cs" />
+    <Compile Include="ClsShopSaleLine.cs" />
+    <Compile Include="ClsShopTransfer.cs" />
+    <Compile Include="ClsShopTransferHead.cs" />
+    <Compile Include="ClsShopTransferLine.cs" />
+    <Compile Include="ClsStock.cs" />
+    <Compile Include="ClsSupplier.cs" />
     <Compile Include="ClsUtils.cs" />
+    <Compile Include="ClsWarehouse.cs" />
+    <Compile Include="ClsWarehouseAdjustment.cs" />
+    <Compile Include="ClsWarehouseAdjustmentHead.cs" />
+    <Compile Include="ClsWarehouseAdjustmentLine.cs" />
+    <Compile Include="ClsWarehouseReturn.cs" />
+    <Compile Include="ClsWarehouseReturnHead.cs" />
+    <Compile Include="ClsWarehouseReturnLine.cs" />
+    <Compile Include="ClsWarehouseTransfer.cs" />
+    <Compile Include="ClsWarehouseTransferHead.cs" />
+    <Compile Include="ClsWarehouseTransferLine.cs" />
+    <Compile Include="FAboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAboutBox.Designer.cs">
+      <DependentUpon>FAboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FDataGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FDataGrid.Designer.cs">
+      <DependentUpon>FDataGrid.cs</DependentUpon>
+    </Compile>
     <Compile Include="FLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FLogin.Designer.cs">
       <DependentUpon>FLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMain.Designer.cs">
+      <DependentUpon>FMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FPurchaseOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPurchaseOrder.Designer.cs">
+      <DependentUpon>FPurchaseOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSeason.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSeason.Designer.cs">
+      <DependentUpon>FSeason.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSettings.Designer.cs">
+      <DependentUpon>FSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FShop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShop.Designer.cs">
+      <DependentUpon>FShop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FShopAdjustment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopAdjustment.Designer.cs">
+      <DependentUpon>FShopAdjustment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FShopDelivery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopDelivery.Designer.cs">
+      <DependentUpon>FShopDelivery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FShopReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopReturn.Designer.cs">
+      <DependentUpon>FShopReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FShopSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopSale.Designer.cs">
+      <DependentUpon>FShopSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FShopTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopTransfer.Designer.cs">
+      <DependentUpon>FShopTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FStock.Designer.cs">
+      <DependentUpon>FStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSupplier.Designer.cs">
+      <DependentUpon>FSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FWarehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWarehouse.Designer.cs">
+      <DependentUpon>FWarehouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FWarehouseAdjustment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWarehouseAdjustment.Designer.cs">
+      <DependentUpon>FWarehouseAdjustment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FWarehouseReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWarehouseReturn.Designer.cs">
+      <DependentUpon>FWarehouseReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FWarehouseTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWarehouseTransfer.Designer.cs">
+      <DependentUpon>FWarehouseTransfer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FAboutBox.resx">
+      <DependentUpon>FAboutBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
