@@ -29,8 +29,8 @@ namespace DMHStockControllerV5
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             this.TxtSID = new System.Windows.Forms.TextBox();
             this.Label11 = new System.Windows.Forms.Label();
             this.Label9 = new System.Windows.Forms.Label();
@@ -144,19 +144,19 @@ namespace DMHStockControllerV5
             // 
             // TransFromQty
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.NullValue = null;
-            this.TransFromQty.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle17.NullValue = null;
+            this.TransFromQty.DefaultCellStyle = dataGridViewCellStyle17;
             this.TransFromQty.HeaderText = "Adjustment Type";
             this.TransFromQty.MinimumWidth = 6;
             this.TransFromQty.Name = "TransFromQty";
             // 
             // TransToQty
             // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle2.Format = "N0";
-            dataGridViewCellStyle2.NullValue = null;
-            this.TransToQty.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle18.Format = "N0";
+            dataGridViewCellStyle18.NullValue = null;
+            this.TransToQty.DefaultCellStyle = dataGridViewCellStyle18;
             this.TransToQty.HeaderText = "Adjustment Qty";
             this.TransToQty.MinimumWidth = 6;
             this.TransToQty.Name = "TransToQty";
@@ -177,6 +177,7 @@ namespace DMHStockControllerV5
             this.CmdDeleteFromGrid.TabIndex = 63;
             this.CmdDeleteFromGrid.Text = "-";
             this.CmdDeleteFromGrid.UseVisualStyleBackColor = true;
+            this.CmdDeleteFromGrid.Click += new System.EventHandler(this.CmdDeleteFromGrid_Click);
             // 
             // cboType
             // 
@@ -222,6 +223,7 @@ namespace DMHStockControllerV5
             this.CmdAddToGrid.TabIndex = 62;
             this.CmdAddToGrid.Text = "+";
             this.CmdAddToGrid.UseVisualStyleBackColor = true;
+            this.CmdAddToGrid.Click += new System.EventHandler(this.CmdAddToGrid_Click);
             // 
             // Label7
             // 
@@ -260,6 +262,7 @@ namespace DMHStockControllerV5
             this.DtpDate.Size = new System.Drawing.Size(164, 24);
             this.DtpDate.TabIndex = 56;
             this.DtpDate.Value = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
+            this.DtpDate.Leave += new System.EventHandler(this.DtpDate_Leave);
             // 
             // Label10
             // 
@@ -280,6 +283,7 @@ namespace DMHStockControllerV5
             this.CmdOK.TabIndex = 64;
             this.CmdOK.Text = "Add";
             this.CmdOK.UseVisualStyleBackColor = true;
+            this.CmdOK.Click += new System.EventHandler(this.CmdOK_Click);
             // 
             // txtCurrentHangers
             // 
@@ -298,6 +302,7 @@ namespace DMHStockControllerV5
             this.CmdCancel.TabIndex = 66;
             this.CmdCancel.Text = "Cancel";
             this.CmdCancel.UseVisualStyleBackColor = true;
+            this.CmdCancel.Click += new System.EventHandler(this.CmdCancel_Click);
             // 
             // CmdClear
             // 
@@ -308,6 +313,7 @@ namespace DMHStockControllerV5
             this.CmdClear.TabIndex = 65;
             this.CmdClear.Text = "Clear";
             this.CmdClear.UseVisualStyleBackColor = true;
+            this.CmdClear.Click += new System.EventHandler(this.CmdClear_Click);
             // 
             // txtShopRef
             // 
@@ -317,6 +323,7 @@ namespace DMHStockControllerV5
             this.txtShopRef.Name = "txtShopRef";
             this.txtShopRef.Size = new System.Drawing.Size(58, 24);
             this.txtShopRef.TabIndex = 58;
+            this.txtShopRef.Leave += new System.EventHandler(this.txtShopRef_Leave);
             // 
             // txtReference
             // 
@@ -375,6 +382,7 @@ namespace DMHStockControllerV5
             this.txtStockCode.Name = "txtStockCode";
             this.txtStockCode.Size = new System.Drawing.Size(98, 24);
             this.txtStockCode.TabIndex = 59;
+            this.txtStockCode.Leave += new System.EventHandler(this.txtStockCode_Leave);
             // 
             // FShopAdjustment
             // 
@@ -411,6 +419,7 @@ namespace DMHStockControllerV5
             this.Controls.Add(this.txtStockCode);
             this.Name = "FShopAdjustment";
             this.Text = "FShopAdjustment";
+            this.Load += new System.EventHandler(this.FShopAdjustment_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvItems)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
