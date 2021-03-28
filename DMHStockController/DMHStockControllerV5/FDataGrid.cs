@@ -295,7 +295,7 @@ namespace DMHStockControllerV5
 
         private void TsbDelete_Click(object sender, EventArgs e)
         {
-            selectid;
+            int selectid;
             int NoRecords = 0;
             selectid = DgvRecords.CurrentRow.Index;
             string i;

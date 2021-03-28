@@ -19,7 +19,7 @@ namespace DMHStockControllerV5
 
         private void CmdLogin_Click(object sender, EventArgs e)
         {
-            TotalUsers;
+            int TotalUsers;
             int PassResult;
             ClsEmployee employee = new ClsEmployee();
             TotalUsers = employee.GetAllUserTotal();
@@ -29,7 +29,7 @@ namespace DMHStockControllerV5
                 DialogResult dialog = MessageBox.Show("Unknown User and do you wish to add new user?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Error);
                 if (dialog == DialogResult.Yes)
                 {
-                    FrmEmployee frmEmployee = new FrmEmployee();
+                    FEmployee frmEmployee = new FEmployee();
                     frmEmployee.FormMode = "New";
                     frmEmployee.ShowDialog();
                     Application.Exit();
@@ -45,7 +45,7 @@ namespace DMHStockControllerV5
             {
                 if (PassResult != 0)
                 {
-                    FrmMain frmMain = new FrmMain
+                    FMain frmMain = new FMain
                     {
                         RefToLoginForm = this,
                         UserID = PassResult
