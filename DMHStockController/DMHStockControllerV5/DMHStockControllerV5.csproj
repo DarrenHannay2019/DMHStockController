@@ -201,6 +201,9 @@
     <EmbeddedResource Include="FAboutBox.resx">
       <DependentUpon>FAboutBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FDataGrid.resx">
+      <DependentUpon>FDataGrid.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FPurchaseOrder.resx">
       <DependentUpon>FPurchaseOrder.cs</DependentUpon>
     </EmbeddedResource>
