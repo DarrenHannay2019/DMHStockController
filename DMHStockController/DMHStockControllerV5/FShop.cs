@@ -12,6 +12,9 @@ namespace DMHStockControllerV5
 {
     public partial class FShop : Form
     {
+        public int UserID { get; set; } // to hold the user's UserID
+        public string FormMode { get; set; }    // to set the mode of the form
+        public string ShopRef { get; set; } // to hold the first column of the selected grid
         public FShop()
         {
             InitializeComponent();

@@ -12,6 +12,9 @@ namespace DMHStockControllerV5
 {
     public partial class FShopTransfer : Form
     {
+        public int UserID { get; set; } // to hold the user's UserID
+        public string FormMode { get; set; }    // to set the mode of the form
+        public DateTime OldDate { get; set; }
         public FShopTransfer()
         {
             InitializeComponent();

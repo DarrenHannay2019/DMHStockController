@@ -226,6 +226,27 @@
     <EmbeddedResource Include="FSeason.resx">
       <DependentUpon>FSeason.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FSettings.resx">
+      <DependentUpon>FSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShop.resx">
+      <DependentUpon>FShop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShopAdjustment.resx">
+      <DependentUpon>FShopAdjustment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShopDelivery.resx">
+      <DependentUpon>FShopDelivery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShopReturn.resx">
+      <DependentUpon>FShopReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShopSale.resx">
+      <DependentUpon>FShopSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShopTransfer.resx">
+      <DependentUpon>FShopTransfer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FStock.resx">
       <DependentUpon>FStock.cs</DependentUpon>
     </EmbeddedResource>
@@ -234,6 +255,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FWarehouse.resx">
       <DependentUpon>FWarehouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FWarehouseAdjustment.resx">
+      <DependentUpon>FWarehouseAdjustment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FWarehouseReturn.resx">
+      <DependentUpon>FWarehouseReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FWarehouseTransfer.resx">
+      <DependentUpon>FWarehouseTransfer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

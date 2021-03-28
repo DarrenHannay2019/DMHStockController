@@ -12,6 +12,9 @@ namespace DMHStockControllerV5
 {
     public partial class FWarehouseAdjustment : Form
     {
+        public string FormMode { get; set; }
+        public int UserID { get; set; }
+        public DateTime OldDate { get; set; }
         public FWarehouseAdjustment()
         {
             InitializeComponent();
