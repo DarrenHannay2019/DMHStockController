@@ -92,6 +92,7 @@ namespace DMHStockControllerV5
             this.TxtStockCode.Name = "TxtStockCode";
             this.TxtStockCode.Size = new System.Drawing.Size(184, 20);
             this.TxtStockCode.TabIndex = 125;
+            this.TxtStockCode.Leave += new System.EventHandler(this.TxtStockCode_Leave);
             // 
             // cmdDelToGrid
             // 
@@ -102,6 +103,7 @@ namespace DMHStockControllerV5
             this.cmdDelToGrid.TabIndex = 129;
             this.cmdDelToGrid.Text = "Delete";
             this.cmdDelToGrid.UseVisualStyleBackColor = true;
+            this.cmdDelToGrid.Click += new System.EventHandler(this.cmdDelToGrid_Click);
             // 
             // cmdAddToGrid
             // 
@@ -112,6 +114,7 @@ namespace DMHStockControllerV5
             this.cmdAddToGrid.TabIndex = 128;
             this.cmdAddToGrid.Text = "Add";
             this.cmdAddToGrid.UseVisualStyleBackColor = true;
+            this.cmdAddToGrid.Click += new System.EventHandler(this.cmdAddToGrid_Click);
             // 
             // cmdCancel
             // 
@@ -122,6 +125,7 @@ namespace DMHStockControllerV5
             this.cmdCancel.TabIndex = 132;
             this.cmdCancel.Text = "Cancel";
             this.cmdCancel.UseVisualStyleBackColor = true;
+            this.cmdCancel.Click += new System.EventHandler(this.cmdCancel_Click);
             // 
             // cmdOK
             // 
@@ -132,6 +136,7 @@ namespace DMHStockControllerV5
             this.cmdOK.TabIndex = 131;
             this.cmdOK.Text = "OK";
             this.cmdOK.UseVisualStyleBackColor = true;
+            this.cmdOK.Click += new System.EventHandler(this.cmdOK_Click);
             // 
             // Label20
             // 
@@ -258,6 +263,7 @@ namespace DMHStockControllerV5
             this.DgvRecords.RowHeadersWidth = 51;
             this.DgvRecords.Size = new System.Drawing.Size(1039, 374);
             this.DgvRecords.TabIndex = 130;
+            this.DgvRecords.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvRecords_CellEndEdit);
             // 
             // DtpTransaction
             // 
@@ -266,6 +272,7 @@ namespace DMHStockControllerV5
             this.DtpTransaction.Name = "DtpTransaction";
             this.DtpTransaction.Size = new System.Drawing.Size(279, 20);
             this.DtpTransaction.TabIndex = 123;
+            this.DtpTransaction.Leave += new System.EventHandler(this.DtpTransaction_Leave);
             // 
             // txtTotalDelivered
             // 
@@ -312,6 +319,7 @@ namespace DMHStockControllerV5
             this.txtShopRef.Name = "txtShopRef";
             this.txtShopRef.Size = new System.Drawing.Size(104, 20);
             this.txtShopRef.TabIndex = 124;
+            this.txtShopRef.Leave += new System.EventHandler(this.txtShopRef_Leave);
             // 
             // txtTotalGarments
             // 
@@ -522,6 +530,7 @@ namespace DMHStockControllerV5
             this.Controls.Add(this.Label1);
             this.Name = "FShopSale";
             this.Text = "FShopSale";
+            this.Load += new System.EventHandler(this.FShopSale_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DgvRecords)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
