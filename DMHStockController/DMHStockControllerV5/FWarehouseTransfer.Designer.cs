@@ -258,6 +258,7 @@ namespace DMHStockControllerV5
             this.CmdDeleteFromGrid.TabIndex = 75;
             this.CmdDeleteFromGrid.Text = "-";
             this.CmdDeleteFromGrid.UseVisualStyleBackColor = true;
+            this.CmdDeleteFromGrid.Click += new System.EventHandler(this.CmdDeleteFromGrid_Click);
             // 
             // TxtInHangers
             // 
@@ -284,6 +285,7 @@ namespace DMHStockControllerV5
             this.TxtToWarehouseRef.Name = "TxtToWarehouseRef";
             this.TxtToWarehouseRef.Size = new System.Drawing.Size(100, 20);
             this.TxtToWarehouseRef.TabIndex = 72;
+            this.TxtToWarehouseRef.Leave += new System.EventHandler(this.TxtToWarehouseRef_Leave);
             // 
             // txtFromWarehouseName
             // 
@@ -357,6 +359,7 @@ namespace DMHStockControllerV5
             this.TxtFromWarehouseRef.Name = "TxtFromWarehouseRef";
             this.TxtFromWarehouseRef.Size = new System.Drawing.Size(100, 20);
             this.TxtFromWarehouseRef.TabIndex = 71;
+            this.TxtFromWarehouseRef.Leave += new System.EventHandler(this.TxtFromWarehouseRef_Leave);
             // 
             // Column5
             // 
@@ -413,6 +416,7 @@ namespace DMHStockControllerV5
             this.CmdAddToGrid.TabIndex = 74;
             this.CmdAddToGrid.Text = "+";
             this.CmdAddToGrid.UseVisualStyleBackColor = true;
+            this.CmdAddToGrid.Click += new System.EventHandler(this.CmdAddToGrid_Click);
             // 
             // TxtStockCode
             // 
@@ -422,6 +426,7 @@ namespace DMHStockControllerV5
             this.TxtStockCode.Name = "TxtStockCode";
             this.TxtStockCode.Size = new System.Drawing.Size(203, 20);
             this.TxtStockCode.TabIndex = 73;
+            this.TxtStockCode.Leave += new System.EventHandler(this.TxtStockCode_Leave);
             // 
             // CmdClear
             // 
@@ -432,6 +437,7 @@ namespace DMHStockControllerV5
             this.CmdClear.TabIndex = 78;
             this.CmdClear.Text = "Clear";
             this.CmdClear.UseVisualStyleBackColor = true;
+            this.CmdClear.Click += new System.EventHandler(this.CmdClear_Click);
             // 
             // CmdOK
             // 
@@ -442,6 +448,7 @@ namespace DMHStockControllerV5
             this.CmdOK.TabIndex = 76;
             this.CmdOK.Text = "Ok";
             this.CmdOK.UseVisualStyleBackColor = true;
+            this.CmdOK.Click += new System.EventHandler(this.CmdOK_Click);
             // 
             // CmdCancel
             // 
@@ -452,6 +459,7 @@ namespace DMHStockControllerV5
             this.CmdCancel.TabIndex = 77;
             this.CmdCancel.Text = "Cancel";
             this.CmdCancel.UseVisualStyleBackColor = true;
+            this.CmdCancel.Click += new System.EventHandler(this.CmdCancel_Click);
             // 
             // DtpDate
             // 
@@ -461,6 +469,7 @@ namespace DMHStockControllerV5
             this.DtpDate.Size = new System.Drawing.Size(220, 20);
             this.DtpDate.TabIndex = 69;
             this.DtpDate.Value = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
+            this.DtpDate.Leave += new System.EventHandler(this.DtpDate_Leave);
             // 
             // Label6
             // 
@@ -586,6 +595,7 @@ namespace DMHStockControllerV5
             this.Controls.Add(this.Label7);
             this.Name = "FWarehouseTransfer";
             this.Text = "FWarehouseTransfer";
+            this.Load += new System.EventHandler(this.FWarehouseTransfer_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DgvRecords)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
