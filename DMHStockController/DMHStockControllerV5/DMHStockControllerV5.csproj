@@ -213,6 +213,9 @@
     <EmbeddedResource Include="FEmployee.resx">
       <DependentUpon>FEmployee.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FLogin.resx">
+      <DependentUpon>FLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FPurchaseOrder.resx">
       <DependentUpon>FPurchaseOrder.cs</DependentUpon>
     </EmbeddedResource>
