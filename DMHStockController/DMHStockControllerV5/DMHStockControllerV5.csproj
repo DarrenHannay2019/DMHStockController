@@ -94,6 +94,12 @@
     <Compile Include="FDataGrid.Designer.cs">
       <DependentUpon>FDataGrid.cs</DependentUpon>
     </Compile>
+    <Compile Include="FEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FEmployee.Designer.cs">
+      <DependentUpon>FEmployee.cs</DependentUpon>
+    </Compile>
     <Compile Include="FLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -203,6 +209,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FDataGrid.resx">
       <DependentUpon>FDataGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FEmployee.resx">
+      <DependentUpon>FEmployee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FPurchaseOrder.resx">
       <DependentUpon>FPurchaseOrder.cs</DependentUpon>
