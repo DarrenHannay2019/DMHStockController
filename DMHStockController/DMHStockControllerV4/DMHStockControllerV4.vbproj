@@ -48,6 +48,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -73,10 +76,237 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FMain.Designer.vb">
+    <Compile Include="AllStock.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AllStock1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AllStock.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CDelete.vb" />
+    <Compile Include="CLoad.vb" />
+    <Compile Include="CReports.vb" />
+    <Compile Include="CSave.vb" />
+    <Compile Include="CStockMovements.vb" />
+    <Compile Include="CSystemLog.vb" />
+    <Compile Include="CUpdate.vb" />
+    <Compile Include="CUtils.vb" />
+    <Compile Include="FBarcodeEntry.Designer.vb">
+      <DependentUpon>FBarcodeEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FBarcodeEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridAllStock.designer.vb">
+      <DependentUpon>FGridAllStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridAllStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridBarcode.Designer.vb">
+      <DependentUpon>FGridBarcode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridBarcode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridCurrentStock.designer.vb">
+      <DependentUpon>FGridCurrentStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridCurrentStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridMoveTypes.designer.vb">
+      <DependentUpon>FGridMoveTypes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridMoveTypes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridPOrders.designer.vb">
+      <DependentUpon>FGridPOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridPOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridSalesTotals.designer.vb">
+      <DependentUpon>FGridSalesTotals.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridSalesTotals.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridSHAdjust.designer.vb">
+      <DependentUpon>FGridSHAdjust.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridSHAdjust.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridShopDel.designer.vb">
+      <DependentUpon>FGridShopDel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridShopDel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridShops.designer.vb">
+      <DependentUpon>FGridShops.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridShops.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridShopSales.designer.vb">
+      <DependentUpon>FGridShopSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridShopSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridSHReturns.designer.vb">
+      <DependentUpon>FGridSHReturns.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridSHReturns.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridSHTransfers.designer.vb">
+      <DependentUpon>FGridSHTransfers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridSHTransfers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridSuppliers.designer.vb">
+      <DependentUpon>FGridSuppliers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridSuppliers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridWarehouses.designer.vb">
+      <DependentUpon>FGridWarehouses.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridWarehouses.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridWHAdjust.designer.vb">
+      <DependentUpon>FGridWHAdjust.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridWHAdjust.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGridWHReturns.designer.vb">
+      <DependentUpon>FGridWHReturns.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGridWHReturns.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMain.designer.vb">
       <DependentUpon>FMain.vb</DependentUpon>
     </Compile>
     <Compile Include="FMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPOrders.designer.vb">
+      <DependentUpon>FPOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FPOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FReportCriteria.designer.vb">
+      <DependentUpon>FReportCriteria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FReportCriteria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FReportViewer.designer.vb">
+      <DependentUpon>FReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSettings.designer.vb">
+      <DependentUpon>FSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShAdjustOld.Designer.vb">
+      <DependentUpon>FShAdjustOld.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShAdjustOld.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopAdjustments.designer.vb">
+      <DependentUpon>FShopAdjustments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShopAdjustments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopDelivery.designer.vb">
+      <DependentUpon>FShopDelivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShopDelivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopReturns.designer.vb">
+      <DependentUpon>FShopReturns.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShopReturns.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShops.designer.vb">
+      <DependentUpon>FShops.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShops.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopSales.designer.vb">
+      <DependentUpon>FShopSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShopSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopTransfers.designer.vb">
+      <DependentUpon>FShopTransfers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShopTransfers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FStock.designer.vb">
+      <DependentUpon>FStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSuppliers.designer.vb">
+      <DependentUpon>FSuppliers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSuppliers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWarehouseAdjust.designer.vb">
+      <DependentUpon>FWarehouseAdjust.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FWarehouseAdjust.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWarehouseReturns.designer.vb">
+      <DependentUpon>FWarehouseReturns.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FWarehouseReturns.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWarehouses.designer.vb">
+      <DependentUpon>FWarehouses.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FWarehouses.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWhAdjustOld.Designer.vb">
+      <DependentUpon>FWhAdjustOld.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FWhAdjustOld.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -94,13 +324,369 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PordersList.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PordersList1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PordersList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintShopAdjustments.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintShopAdjustments1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintShopAdjustments.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintShops.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintShops1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintShops.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SalesAnalysis.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SalesAnalysis1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesAnalysis.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SalesGrid.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SalesGrid1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesGrid.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SalesHistory.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SalesHistory1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesHistory.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShopDelGrid.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShopDelGrid1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ShopDelGrid.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShopDeliveryRep.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShopDeliveryRep1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ShopDeliveryRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShopsList.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShopsList1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ShopsList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StockByCode.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StockByCode1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StockByCode.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StockList.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StockList1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StockList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StockListByCode.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StockListByCode1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StockListByCode.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StockListByShop.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StockListByShop1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StockListByShop.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StockListByShopBore.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StockListByShopBore1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StockListByShopBore.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StockListRepByStockCode.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StockListRepByStockCode1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StockListRepByStockCode.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SupplierPre.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SupplierPre1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SupplierPre.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuppliersReport.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuppliersReport1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SuppliersReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TotalValueRep.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TotalValueRep1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TotalValueRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WarehouseStockList.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WarehouseStockList1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WarehouseStockList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AllStock.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AllStock1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FBarcodeEntry.resx">
+      <DependentUpon>FBarcodeEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridAllStock.resx">
+      <DependentUpon>FGridAllStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridBarcode.resx">
+      <DependentUpon>FGridBarcode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridCurrentStock.resx">
+      <DependentUpon>FGridCurrentStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridMoveTypes.resx">
+      <DependentUpon>FGridMoveTypes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridPOrders.resx">
+      <DependentUpon>FGridPOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridSalesTotals.resx">
+      <DependentUpon>FGridSalesTotals.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridSHAdjust.resx">
+      <DependentUpon>FGridSHAdjust.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridShopDel.resx">
+      <DependentUpon>FGridShopDel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridShops.resx">
+      <DependentUpon>FGridShops.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridShopSales.resx">
+      <DependentUpon>FGridShopSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridSHReturns.resx">
+      <DependentUpon>FGridSHReturns.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridSHTransfers.resx">
+      <DependentUpon>FGridSHTransfers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridSuppliers.resx">
+      <DependentUpon>FGridSuppliers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridWarehouses.resx">
+      <DependentUpon>FGridWarehouses.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridWHAdjust.resx">
+      <DependentUpon>FGridWHAdjust.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGridWHReturns.resx">
+      <DependentUpon>FGridWHReturns.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMain.resx">
+      <DependentUpon>FMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPOrders.resx">
+      <DependentUpon>FPOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FReportCriteria.resx">
+      <DependentUpon>FReportCriteria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FReportViewer.resx">
+      <DependentUpon>FReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSettings.resx">
+      <DependentUpon>FSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShAdjustOld.resx">
+      <DependentUpon>FShAdjustOld.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShopAdjustments.resx">
+      <DependentUpon>FShopAdjustments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShopDelivery.resx">
+      <DependentUpon>FShopDelivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShopReturns.resx">
+      <DependentUpon>FShopReturns.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShops.resx">
+      <DependentUpon>FShops.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShopSales.resx">
+      <DependentUpon>FShopSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FShopTransfers.resx">
+      <DependentUpon>FShopTransfers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FStock.resx">
+      <DependentUpon>FStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSuppliers.resx">
+      <DependentUpon>FSuppliers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FWarehouseAdjust.resx">
+      <DependentUpon>FWarehouseAdjust.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FWarehouseReturns.resx">
+      <DependentUpon>FWarehouseReturns.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FWarehouses.resx">
+      <DependentUpon>FWarehouses.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FWhAdjustOld.resx">
+      <DependentUpon>FWhAdjustOld.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PordersList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PordersList1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintShopAdjustments.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintShopAdjustments1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintShops.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintShops1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesAnalysis.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalesAnalysis1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesGrid.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalesGrid1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesHistory.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalesHistory1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShopDelGrid.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ShopDelGrid1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShopDeliveryRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ShopDeliveryRep1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShopsList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ShopsList1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockByCode.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StockByCode1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StockList1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockListByCode.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StockListByCode1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockListByShop.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StockListByShop1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockListByShopBore.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StockListByShopBore1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockListRepByStockCode.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StockListRepByStockCode1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierPre.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SupplierPre1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuppliersReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SuppliersReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TotalValueRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TotalValueRep1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarehouseStockList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>WarehouseStockList1.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -114,6 +700,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
