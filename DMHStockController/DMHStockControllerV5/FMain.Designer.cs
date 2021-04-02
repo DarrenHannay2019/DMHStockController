@@ -78,14 +78,14 @@ namespace DMHStockControllerV5
             // settingsToolStripMenuItem
             // 
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(131, 24);
             this.settingsToolStripMenuItem.Text = "Settings";
             this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
             // 
             // totalValuationToolStripMenuItem
             // 
             this.totalValuationToolStripMenuItem.Name = "totalValuationToolStripMenuItem";
-            this.totalValuationToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.totalValuationToolStripMenuItem.Size = new System.Drawing.Size(177, 24);
             this.totalValuationToolStripMenuItem.Text = "Total Valuation";
             this.totalValuationToolStripMenuItem.Click += new System.EventHandler(this.totalValuationToolStripMenuItem_Click);
             // 
@@ -186,42 +186,42 @@ namespace DMHStockControllerV5
             // seasonsToolStripMenuItem
             // 
             this.seasonsToolStripMenuItem.Name = "seasonsToolStripMenuItem";
-            this.seasonsToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.seasonsToolStripMenuItem.Size = new System.Drawing.Size(166, 24);
             this.seasonsToolStripMenuItem.Text = "Seasons";
             this.seasonsToolStripMenuItem.Click += new System.EventHandler(this.seasonsToolStripMenuItem_Click);
             // 
             // allStockToolStripMenuItem
             // 
             this.allStockToolStripMenuItem.Name = "allStockToolStripMenuItem";
-            this.allStockToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.allStockToolStripMenuItem.Size = new System.Drawing.Size(166, 24);
             this.allStockToolStripMenuItem.Text = "All Stock";
             this.allStockToolStripMenuItem.Click += new System.EventHandler(this.allStockToolStripMenuItem_Click);
             // 
             // currentStockToolStripMenuItem
             // 
             this.currentStockToolStripMenuItem.Name = "currentStockToolStripMenuItem";
-            this.currentStockToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.currentStockToolStripMenuItem.Size = new System.Drawing.Size(166, 24);
             this.currentStockToolStripMenuItem.Text = "Current Stock";
             this.currentStockToolStripMenuItem.Click += new System.EventHandler(this.currentStockToolStripMenuItem_Click);
             // 
             // shopsToolStripMenuItem
             // 
             this.shopsToolStripMenuItem.Name = "shopsToolStripMenuItem";
-            this.shopsToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.shopsToolStripMenuItem.Size = new System.Drawing.Size(166, 24);
             this.shopsToolStripMenuItem.Text = "Shops";
             this.shopsToolStripMenuItem.Click += new System.EventHandler(this.shopsToolStripMenuItem_Click);
             // 
             // suppliersToolStripMenuItem
             // 
             this.suppliersToolStripMenuItem.Name = "suppliersToolStripMenuItem";
-            this.suppliersToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.suppliersToolStripMenuItem.Size = new System.Drawing.Size(166, 24);
             this.suppliersToolStripMenuItem.Text = "Suppliers";
             this.suppliersToolStripMenuItem.Click += new System.EventHandler(this.suppliersToolStripMenuItem_Click);
             // 
             // warehousesToolStripMenuItem
             // 
             this.warehousesToolStripMenuItem.Name = "warehousesToolStripMenuItem";
-            this.warehousesToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.warehousesToolStripMenuItem.Size = new System.Drawing.Size(166, 24);
             this.warehousesToolStripMenuItem.Text = "Warehouses";
             this.warehousesToolStripMenuItem.Click += new System.EventHandler(this.warehousesToolStripMenuItem_Click);
             // 
@@ -274,6 +274,7 @@ namespace DMHStockControllerV5
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.splitContainer1);
+            this.IsMdiContainer = true;
             this.Name = "FMain";
             this.Text = "FMain";
             this.Load += new System.EventHandler(this.FMain_Load);

@@ -49,7 +49,7 @@ namespace DMHStockControllerV5
             // Returns the correct Database connection string for the identity record.
             if (ID == 1)
             {
-                return @"Initial Catalog=FYPv2;Data Source=.\SQLEXPRESS;Persist Security Info=False;Integrated Security=true;";
+                return @"Initial Catalog=DMHStockV5;Data Source=(local);Persist Security Info=False;Integrated Security=true;";
             }
             else if (ID == 2)
             {
@@ -57,7 +57,7 @@ namespace DMHStockControllerV5
             }
             else if (ID == 3)
             {
-                return @"Initial Catalog=master;Data Source=.\SQLEXPRESS;Persist Security Info=False;Integrated Security=true;";
+                return @"Initial Catalog=master;Data Source=(local);Persist Security Info=False;Integrated Security=true;";
             }
             else
             {

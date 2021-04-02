@@ -90,7 +90,7 @@ Partial Class FGridShopSales
         'TsbNew
         '
         Me.TsbNew.AutoSize = False
-        Me.TsbNew.Image = Global.StockMasterv4.My.Resources.Resources._006_draw
+        ' Me.TsbNew.Image = Global.StockMasterv4.My.Resources.Resources._006_draw
         Me.TsbNew.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.TsbNew.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.TsbNew.Name = "TsbNew"
@@ -100,7 +100,7 @@ Partial Class FGridShopSales
         '
         'TsbRecord
         '
-        Me.TsbRecord.Image = Global.StockMasterv4.My.Resources.Resources._008_note
+        ' Me.TsbRecord.Image = Global.StockMasterv4.My.Resources.Resources._008_note
         Me.TsbRecord.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.TsbRecord.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.TsbRecord.Name = "TsbRecord"
@@ -110,7 +110,7 @@ Partial Class FGridShopSales
         '
         'TsbDelete
         '
-        Me.TsbDelete.Image = Global.StockMasterv4.My.Resources.Resources._003_can
+        ' Me.TsbDelete.Image = Global.StockMasterv4.My.Resources.Resources._003_can
         Me.TsbDelete.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.TsbDelete.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.TsbDelete.Name = "TsbDelete"
@@ -120,7 +120,7 @@ Partial Class FGridShopSales
         '
         'TsbRefresh
         '
-        Me.TsbRefresh.Image = Global.StockMasterv4.My.Resources.Resources._002_arrows
+        ' Me.TsbRefresh.Image = Global.StockMasterv4.My.Resources.Resources._002_arrows
         Me.TsbRefresh.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.TsbRefresh.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.TsbRefresh.Name = "TsbRefresh"
@@ -130,7 +130,7 @@ Partial Class FGridShopSales
         '
         'TsbPrint
         '
-        Me.TsbPrint.Image = Global.StockMasterv4.My.Resources.Resources._005_technology
+        ' Me.TsbPrint.Image = Global.StockMasterv4.My.Resources.Resources._005_technology
         Me.TsbPrint.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.TsbPrint.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.TsbPrint.Name = "TsbPrint"
@@ -140,7 +140,7 @@ Partial Class FGridShopSales
         '
         'TsbFind
         '
-        Me.TsbFind.Image = Global.StockMasterv4.My.Resources.Resources._004_eye
+        ' Me.TsbFind.Image = Global.StockMasterv4.My.Resources.Resources._004_eye
         Me.TsbFind.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.TsbFind.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.TsbFind.Name = "TsbFind"
@@ -150,7 +150,7 @@ Partial Class FGridShopSales
         '
         'TsbClose
         '
-        Me.TsbClose.Image = Global.StockMasterv4.My.Resources.Resources._001_close
+        ' Me.TsbClose.Image = Global.StockMasterv4.My.Resources.Resources._001_close
         Me.TsbClose.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.TsbClose.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.TsbClose.Name = "TsbClose"
