@@ -1,0 +1,6 @@
+C:\MyCPP\DMHStockController\DMHStockController\DMHStockControllerV4_1\obj\Debug\DMHStockControllerV4_1.vbprojAssemblyReference.cache
+C:\MyCPP\DMHStockController\DMHStockController\DMHStockControllerV4_1\obj\Debug\DMHStockControllerV4_1.FrmDataGrid.resources
+C:\MyCPP\DMHStockController\DMHStockController\DMHStockControllerV4_1\obj\Debug\DMHStockControllerV4_1.FrmMainInterface.resources
+C:\MyCPP\DMHStockController\DMHStockController\DMHStockControllerV4_1\obj\Debug\DMHStockControllerV4_1.Resources.resources
+C:\MyCPP\DMHStockController\DMHStockController\DMHStockControllerV4_1\obj\Debug\DMHStockControllerV4_1.vbproj.GenerateResource.cache
+C:\MyCPP\DMHStockController\DMHStockController\DMHStockControllerV4_1\obj\Debug\DMHStockControllerV4_1.vbproj.CoreCompileInputs.cache
